@@ -522,6 +522,10 @@
 		A6A0734B17C78EF3004343C8 /* CCResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0734917C78EF3004343C8 /* CCResponder.m */; };
 		A6DC4E0918055DCC00C280A6 /* CCTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DC4E0718055DCC00C280A6 /* CCTransition.h */; };
 		A6DC4E0A18055DCC00C280A6 /* CCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DC4E0818055DCC00C280A6 /* CCTransition.m */; };
+		AAB5A70F1AC897BB004D571A /* Grid.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB5A70D1AC897BB004D571A /* Grid.h */; };
+		AAB5A7101AC897BB004D571A /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A70E1AC897BB004D571A /* Grid.m */; };
+		AAB5A7151AC897E2004D571A /* Creatures.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB5A7131AC897E2004D571A /* Creatures.h */; };
+		AAB5A7161AC897E2004D571A /* Creatures.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A7141AC897E2004D571A /* Creatures.m */; };
 		B706B19818209A8300B27A2C /* CCTexture_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B706B19718209A8300B27A2C /* CCTexture_Private.h */; };
 		B74C2B9B17BDA63A00A829C0 /* CCSprite9Slice.h in Headers */ = {isa = PBXBuildFile; fileRef = B74C2B9917BDA63A00A829C0 /* CCSprite9Slice.h */; };
 		B74C2B9C17BDA63A00A829C0 /* CCSprite9Slice.m in Sources */ = {isa = PBXBuildFile; fileRef = B74C2B9A17BDA63A00A829C0 /* CCSprite9Slice.m */; };
@@ -1312,6 +1316,10 @@
 		A6A0734917C78EF3004343C8 /* CCResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCResponder.m; sourceTree = "<group>"; };
 		A6DC4E0718055DCC00C280A6 /* CCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTransition.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		A6DC4E0818055DCC00C280A6 /* CCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTransition.m; sourceTree = "<group>"; };
+		AAB5A70D1AC897BB004D571A /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		AAB5A70E1AC897BB004D571A /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		AAB5A7131AC897E2004D571A /* Creatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creatures.h; sourceTree = "<group>"; };
+		AAB5A7141AC897E2004D571A /* Creatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creatures.m; sourceTree = "<group>"; };
 		B706B19718209A8300B27A2C /* CCTexture_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTexture_Private.h; sourceTree = "<group>"; };
 		B706B19918209FA000B27A2C /* CCDirector_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDirector_Private.h; sourceTree = "<group>"; };
 		B74C2B9917BDA63A00A829C0 /* CCSprite9Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSprite9Slice.h; sourceTree = "<group>"; };
@@ -1574,6 +1582,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				AAB5A70D1AC897BB004D571A /* Grid.h */,
+				AAB5A70E1AC897BB004D571A /* Grid.m */,
+				AAB5A7131AC897E2004D571A /* Creatures.h */,
+				AAB5A7141AC897E2004D571A /* Creatures.m */,
 				A07EC9B2141A8D32008C1F12 /* README.md */,
 				DCF7B34D1A1D426000E0EEAF /* API-Index.md */,
 				501A7CAC0EBC97BA005BC158 /* AUTHORS */,
@@ -2333,6 +2345,7 @@
 				9D856721191B019900573093 /* CCEffectContrast.h in Headers */,
 				50F9E8170E1AA34E000E7616 /* ccTypes.h in Headers */,
 				D3A2E7D2181E12750033614C /* CCPhysicsShape.h in Headers */,
+				AAB5A70F1AC897BB004D571A /* Grid.h in Headers */,
 				504055B00E3230BD00213FEF /* CCParticleExamples.h in Headers */,
 				D24160FD1958F6EE003673BD /* CCAnimationManager_Private.h in Headers */,
 				506602110E38A70D000B500E /* CCScheduler.h in Headers */,
@@ -2375,6 +2388,7 @@
 				B7E260D818171D2000A0E872 /* CCTextField.h in Headers */,
 				D34CAD6C19C3AA10009BED7A /* CCRendererBasicTypes_Private.h in Headers */,
 				D268FE13198078FF00ECBCD0 /* CCEffectReflection.h in Headers */,
+				AAB5A7151AC897E2004D571A /* Creatures.h in Headers */,
 				B7D273131822F4AA0054849B /* CCBReader.h in Headers */,
 				9DF37621191C594A00C6D27A /* CCEffectPixellate.h in Headers */,
 				50CB3B0E100AC43A00B7A750 /* CCActionManager.h in Headers */,
@@ -3068,6 +3082,7 @@
 				D34CAD6419C3A0FD009BED7A /* NSValue+CCRenderer.m in Sources */,
 				5018F26A0DFDEAFF00C013A5 /* CCAction.m in Sources */,
 				D3903B0B1995285B003AA81A /* CCEffectBlur.m in Sources */,
+				AAB5A7161AC897E2004D571A /* Creatures.m in Sources */,
 				D299CE7C19C2910B00519CBB /* CCEffectDFInnerGlow.m in Sources */,
 				5018F26C0DFDEAFF00C013A5 /* CCNode.m in Sources */,
 				5018F26E0DFDEAFF00C013A5 /* CCDirector.m in Sources */,
@@ -3101,6 +3116,7 @@
 				D37D197A18B6665700B23FDE /* CCTMXXMLParser.m in Sources */,
 				509A79980F6188420032F449 /* CCSprite.m in Sources */,
 				D37D197718B6665700B23FDE /* CCTiledMap.m in Sources */,
+				AAB5A7101AC897BB004D571A /* Grid.m in Sources */,
 				D36DFA2819996EC500DEC135 /* CCRendererGLSupport.m in Sources */,
 				D27451C819B111A9006DA0A1 /* CCEffectDFOutline.m in Sources */,
 				50C508C70F7C194400799124 /* CCFileUtils.m in Sources */,
