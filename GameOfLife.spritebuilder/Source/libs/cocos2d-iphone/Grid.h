@@ -13,4 +13,10 @@
     @property (nonatomic, assign) int totalAlive; // these update the two Label values
     @property (nonatomic, assign) int generation;
 
+    - (void) evolveStep;
+
+    - (void) countNeighbours;
+
+    - (void) updateCreatures;
+
 @end
